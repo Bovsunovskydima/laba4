@@ -1,4 +1,4 @@
-// for lounch .\build\Release\thread_safe_demo.exe or rebuild the project
+// for launch .\build\Release\thread_safe_demo.exe or rebuild the project
 #include "DataStructure.h"
 #include "FileGenerator.h"
 #include <iostream>
