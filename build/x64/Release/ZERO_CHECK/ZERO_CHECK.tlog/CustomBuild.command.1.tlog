@@ -1,0 +1,10 @@
+^D:\C++\LABA4\BUILD\CMAKEFILES\D66A808E9523A2E29133556E5C739BE6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/c++/laba4 -BD:/c++/laba4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/c++/laba4/build/ThreadSafeDataStructure.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
